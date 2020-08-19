@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+
+<h1 id="bones-gravtheme">Bones - Grav Theme</h1>
+
+<p><a href="http://foundation.zurb.com/"><img src="https://img.shields.io/badge/Foundation-v6.2.4-FF6908.svg" alt="Foundation Version" /></a>
+<a href="http://zurb.com/playground/motion-ui"><img src="https://img.shields.io/badge/MotionUI-v1.2.2-FF6908.svg" alt="MotionUI Version" /></a>
+<a href="https://fortawesome.github.io/Font-Awesome/"><img src="https://img.shields.io/badge/FontAwesome-v4.7.0-1d9d74.svg" alt="FontAwesome Version" /></a>
+<a href="http://mynameismatthieu.com/WOW/"><img src="https://img.shields.io/badge/WOW.js-v1.1.2.unofficial-eb3980.svg" alt="WOWjs Version" /></a>
+<a href="http://daneden.github.io/animate.css/"><img src="https://img.shields.io/badge/Animate.css-v3.5.2-f35626.svg" alt="AnimateCSS Version" /></a>
+<a href="http://sgne.ws/1KPEcMD"><img src="https://img.shields.io/gitter/room/nwjs/nw.js.svg" alt="Gitter" /></a></p>
+
+<p><strong>Bones</strong> is a <a href="http://getgrav.org">Grav</a> theme based on <a href="http://foundation.zurb.com/">Foundation6</a> by Zurb and Includes <a href="https://fortawesome.github.io/Font-Awesome/">FontAwesome</a>, <a href="http://mynameismatthieu.com/WOW/">WOW.js</a>, and <a href="http://daneden.github.io/animate.css/">Animate.css</a>. This is a base theme meant to be customized. The idea is to provide a starting point for your next custom project.</p>
+
+<h4 id="bones-demohttp:demos.smartgravity.comgrav-bones"><a href="http://demos.smartgravity.com/grav-bones/">Bones - Demo</a></h4>
+
+<figure>
+<img src="assets/bones-macbook-pro.png" alt="Bones Screenshot" />
+<figcaption>Bones Screenshot</figcaption>
+</figure>
+
+<h1 id="installation">Installation</h1>
+
+<p>Installing the Bones theme can be done in one of two ways. Our GPM (Grav Package Manager) installation method enables you to quickly and easily install the theme with a simple terminal command, while the manual method enables you to do so via a zip file.</p>
+
+<p>The theme by itself is useful, but you may have an easier time getting up and running by installing a skeleton. The Bones theme can be found in a self-contained repository for a complete site which includes: sample content, configuration, theme, and plugins.</p>
+
+<h2 id="gpminstallationpreferred">GPM Installation (Preferred)</h2>
+
+<p>The simplest way to install this theme is via the <a href="http://learn.getgrav.org/advanced/grav-gpm">Grav Package Manager (GPM)</a> through your system&#8217;s Terminal (also called the command line). From the root of your Grav install type:</p>
+
+<p><code>bin/gpm install bones</code></p>
+
+<p>This will install the Bones theme into your <code>/user/themes</code> directory within Grav. Its files can be found under <code>/your/site/grav/user/themes/bones</code>.</p>
+
+<h2 id="manualinstallation">Manual Installation</h2>
+
+<p>To install this theme, just download the zip version of this repository and unzip it under <code>/your/site/grav/user/themes</code>. Then, rename the folder to <code>bones</code>. You can find these files either on <a href="https://github.com/getgrav/grav-theme-bones">GitHub</a> or via <a href="http://getgrav.org/downloads/themes">GetGrav.org</a>.</p>
+
+<p>You should now have all the theme files under</p>
+
+<p><code>/your/site/grav/user/themes/bones</code></p>
+
+<blockquote>
+<p>NOTE: This theme is a modular component for Grav which requires the <a href="http://github.com/getgrav/grav">Grav</a>, <a href="https://github.com/getgrav/grav-theme-error">Error</a> and <a href="https://github.com/getgrav/grav-plugin-problems">Problems</a> plugins.</p>
+</blockquote>
+
+<h1 id="updating">Updating</h1>
+
+<p>As development for the Bones theme continues, new versions may become available that add additional features and functionality, improve compatibility with newer Grav releases, and generally provide a better user experience. Updating Bones is easy, and can be done through Grav&#8217;s GPM system, as well as manually.</p>
+
+<h2 id="gpmupdatepreferred">GPM Update (Preferred)</h2>
+
+<p>The simplest way to update this theme is via the <a href="http://learn.getgrav.org/advanced/grav-gpm">Grav Package Manager (GPM)</a>. You can do this with this by navigating to the root directory of your Grav install using your system&#8217;s Terminal (also called command line) and typing the following:</p>
+
+<pre><code>bin/gpm update bones
+</code></pre>
+
+<p>This command will check your Grav install to see if your Bones theme is due for an update. If a newer release is found, you will be asked whether or not you wish to update. To continue, type <code>y</code> and hit enter. The theme will automatically update and clear Grav&#8217;s cache.</p>
+
+<h2 id="manualupdate">Manual Update</h2>
+
+<p>Manually updating Bones is pretty simple. Here is what you will need to do to get this done:</p>
+
+<ul>
+<li>Delete the <code>your/site/user/themes/bones</code> directory.</li>
+<li>Download the new version of the Bones theme from either <a href="https://github.com/getgrav/grav-theme-bones">GitHub</a> or <a href="http://getgrav.org/downloads/themes#extras">GetGrav.org</a>.</li>
+<li>Unzip the zip file in <code>your/site/user/themes</code> and rename the resulting folder to <code>bones</code>.</li>
+<li>Clear the Grav cache. The simplest way to do this is by going to the root Grav directory in terminal and typing <code>bin/grav clear-cache</code>.</li>
+</ul>
+
+<blockquote>
+<p>Note: Any changes you have made to any of the files listed under this directory will also be removed and replaced by the new set. Any files located elsewhere (for example a YAML settings file placed in <code>user/config/themes</code>) will remain intact.</p>
+</blockquote>
+
+<h1 id="setup">Setup</h1>
+
+<p>If you want to set Bones as the default theme, you can do so by following these steps:</p>
+
+<ul>
+<li>Navigate to <code>/your/site/grav/user/config</code>.</li>
+<li>Open the <strong>system.yaml</strong> file.</li>
+<li>Change the <code>theme:</code> setting to <code>theme: bones</code>.</li>
+<li>Save your changes.</li>
+<li>Clear the Grav cache. The simplest way to do this is by going to the root Grav directory in Terminal and typing <code>bin/grav clear-cache</code>.</li>
+</ul>
+
+<p>Once this is done, you should be able to see the new theme on the frontend. Keep in mind any customizations made to the previous theme will not be reflected as all of the theme and templating information is now being pulled from the <strong>bones</strong> folder.</p>
+
+</body>
+</html>
+
