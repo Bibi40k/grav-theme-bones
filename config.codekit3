@@ -36,12 +36,12 @@
 		},
 	"\/assets\/screenshot.jpg": {
 		"ft": 16384,
-		"iS": 92992,
+		"iS": 78503,
 		"oA": 0,
 		"oAP": "\/assets\/screenshot.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/blueprints.yaml": {
@@ -3805,7 +3805,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/dist\/jquery.js",
 		"oF": 0,
 		"sC": 1,
@@ -5044,7 +5044,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/motion-ui\/dist\/motion-ui.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"\/bower_components\/motion-ui\/dist\/motion-ui.js": {
 		"ft": 64,
@@ -5064,7 +5064,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/motion-ui\/dist\/motion-ui.min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"\/bower_components\/motion-ui\/dist\/motion-ui.min.js": {
 		"ft": 64,
@@ -6560,6 +6560,24 @@
 		"oAP": "\/README.html",
 		"oF": 0
 		},
+	"\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/screenshot.jpg": {
 		"ft": 16384,
 		"iS": 92992,
@@ -7046,8 +7064,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/flex-video.css",
-		"oF": 2,
+		"oAP": "\/scss\/responsive-embed.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
