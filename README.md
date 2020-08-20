@@ -1,7 +1,7 @@
 # Bones - Grav Theme
 
-[![Foundation Version](https://img.shields.io/badge/Foundation-v6.2.4-FF6908.svg)](http://foundation.zurb.com/) 
-[![MotionUI Version](https://img.shields.io/badge/MotionUI-v1.2.2-FF6908.svg)](http://zurb.com/playground/motion-ui) 
+[![Foundation Version](https://img.shields.io/badge/Foundation-v6.6.3-FF6908.svg)](http://foundation.zurb.com/) 
+[![MotionUI Version](https://img.shields.io/badge/MotionUI-v2.0.3-FF6908.svg)](http://zurb.com/playground/motion-ui) 
 [![FontAwesome Version](https://img.shields.io/badge/FontAwesome-v4.7.0-1d9d74.svg)](https://fortawesome.github.io/Font-Awesome/) 
 [![WOWjs Version](https://img.shields.io/badge/WOW.js-v1.1.2.unofficial-eb3980.svg)](http://mynameismatthieu.com/WOW/) 
 [![AnimateCSS Version](https://img.shields.io/badge/Animate.css-v3.5.2-f35626.svg)](http://daneden.github.io/animate.css/) 
