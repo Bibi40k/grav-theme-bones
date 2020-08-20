@@ -278,7 +278,8 @@ form:
                   type: bool
             foundation_magellan_js.enabled:
                 type: toggle
-                label: magellan
+                label: Magellan (?)
+                help: 'Dependencies: smoothScroll & util.triggers'
                 highlight: 1
                 default: 0
                 options:
@@ -339,6 +340,16 @@ form:
             foundation_slider_js.enabled:
                 type: toggle
                 label: slider
+                highlight: 1
+                default: 0
+                options:
+                  1: Enabled
+                  0: Disabled
+                validate:
+                  type: bool
+            foundation_smoothScroll_js.enabled:
+                type: toggle
+                label: smoothScroll
                 highlight: 1
                 default: 0
                 options:

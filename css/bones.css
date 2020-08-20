@@ -523,7 +523,7 @@ blockquote > blockquote > blockquote {
 
 #sg-in-page-navigation {
   border-color: #cacaca; }
-  #sg-in-page-navigation a.active {
+  #sg-in-page-navigation a.is-active {
     color: #1E8CC7; }
 
 pre {
